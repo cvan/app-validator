@@ -232,6 +232,12 @@ GLOBAL_ENTITIES = {
              u"getGamepad": feature("GAMEPAD"),
              u"mozGetGamepad": feature("GAMEPAD"),
              u"webkitGetGamepad": feature("GAMEPAD"),
+             u"temporaryStorage": feature("QUOTA"),
+             u"mozTemporaryStorage": feature("QUOTA"),
+             u"webkitTemporaryStorage": feature("QUOTA"),
+             u"persistentStorage": feature("QUOTA"),
+             u"mozPersistentStorage": feature("QUOTA"),
+             u"webkitPersistentStorage": feature("QUOTA")
             },
         },
 
@@ -248,9 +254,6 @@ GLOBAL_ENTITIES = {
     u"webkitAudioContext": feature("WEBAUDIO"),
     u"mozAudioContext": feature("WEBAUDIO"),
     u"AudioContext": feature("WEBAUDIO"),
-    u"persistentStorage": feature("QUOTA"),
-    u"mozPersistentStorage": feature("QUOTA"),
-    u"webkitPersistentStorage": feature("QUOTA"),
     u"StorageInfo": feature("QUOTA"),
     u"fullScreen": feature("FULLSCREEN"),
 
